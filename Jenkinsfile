@@ -10,7 +10,7 @@ pipeline {
         }
         stage('show fils') {
             steps {
-                dir 
+              bat  dir 
             }
         }
     }
