@@ -13,5 +13,10 @@ pipeline {
                bat  'dir' 
             }
         }
+        stage('print show fils') {
+            steps {
+              echo bat  'dir' 
+            }
+        }
     }
 }
