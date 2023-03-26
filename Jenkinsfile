@@ -8,8 +8,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
-    }
-    
      stages {
         stage('show fils') {
             steps {
