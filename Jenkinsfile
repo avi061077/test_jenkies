@@ -15,7 +15,7 @@ pipeline {
         }
         stage('print show fils') {
             steps {
-              echo bat  'dir' 
+              python hello.py
             }
         }
     }
