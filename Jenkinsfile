@@ -15,7 +15,7 @@ pipeline {
         }
         stage('print show fils') {
             steps {
-             python hello.py
+            bat "python hello.py"
             }
         }
     }
