@@ -9,11 +9,12 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('Hello') {
+    
+     stages {
+        stage('show fils') {
             steps {
-                echo 'Hello yalla'
+                dir 
             }
         }
-    
+    }
 }
