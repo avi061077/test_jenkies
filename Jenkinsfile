@@ -10,12 +10,12 @@ pipeline {
         }
         stage('show fils') {
             steps {
-               bat  'dir' 
+              sh 'ls -ltr'
             }
         }
         stage('print show fils') {
             steps {
-            bat "python hello.py"
+            sh 'python3 hello.py'
             }
         }
     }
